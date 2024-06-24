@@ -1,0 +1,166 @@
+
+/*#include <iostream>
+using namespace std;
+int main() {             
+
+
+Output of the code 
+**********
+**********
+**********
+
+    for (int i=0;i<3;i++){
+        for (int j=0;j<10;j++){
+            cout<<"*";  }
+   cout<<endl; }
+    return 0;
+}
+// Hollow rectangle
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 10; j++) {
+            if (  i == 3 || j == 3||i == 0 || j == 0) { 
+                cout << "*";
+            } else {
+                cout << " ";
+            }
+        }
+        cout << endl;
+    }
+    return 0;
+}
+#include <iostream>   
+ using namespace std;
+
+
+Output of the code 
+*
+**
+***
+****
+ 
+int main() {
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j <= i; j++) {
+           cout<<"*";}
+        cout << endl;
+    }
+    return 0;
+}
+#include <iostream>
+using namespace std;
+int main() {
+ 
+ 
+ Output of the code    
+*****
+****
+***
+**
+*
+
+    for (int i = 4; i >=0; i--) {
+        for (int j = 0; j <= i; j++) {
+           cout<<"*";}
+        cout << endl;
+    }
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n = 4;  // Height of the pyramid
+ 
+ 
+ Output of the code    
+   *
+  ***
+ *****
+*******
+
+    for (int i = 0; i < n; i++) {
+        // Print leading spaces
+        for (int j = 0; j < n - i - 1; j++) {
+            cout << " ";
+        }
+        // Print asterisks
+        for (int k = 0; k < (2 * i + 1); k++) {
+            cout << "*";
+        }
+        // Move to the next line
+        cout << endl;
+    }
+    return 0;
+}
+
+
+
+#include <iostream>
+using namespace std;
+int main() {
+
+Output of the code 
+12345678910
+23456789101
+34567891012
+45678910123
+56789101234
+67891012345
+78910123456
+89101234567
+91012345678
+10123456789
+    for (int i = 1; i <=10; i++) {
+        for (int j = i; j <= 10; j++) {
+           cout<<j;}
+           for (int j = 1; j <= i-1; j++) {
+           cout<<j;}
+        cout << endl;
+    }
+return 0;
+}
+    
+    
+#include <iostream>
+using namespace std;
+
+int main() {
+
+Output of the code 
+1010101010
+0101010101
+1010101010
+
+
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 10; j++) {
+            if ((i + j) % 2 == 0) {
+                cout << "1";
+            } else {
+                cout << "0";
+            }
+        }
+        cout << endl;
+    }
+    return 0;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
